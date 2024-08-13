@@ -23,7 +23,7 @@ return new class extends Migration
             $table->text('Link_publikasi');
             $table->string('Metadata');
             $table->text('Link_metadata');
-            $table->string('rekomendasi');
+            $table->string('Rekomendasi');
             $table->text('Link_rekomendasi');
             $table->foreignid('NIP');
             $table->foreign('NIP')->references('NIP')->on('pengelola');
